@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TfNSW Surveying Team</title>
+  <style>
+    /* TfNSW Branding Colors */
+    :root {
+      --nsw-blue: #0E1D3D;
+      --nsw-red: #D41042;
+    }
+
+    body {
+      margin: 0;
+      font-family: "Public Sans", Arial, sans-serif;
+      color: #333;
+      line-height: 1.6;
+      background-color: #fff;
+    }
+
+    header {
+      /* Hero section with background image and overlay */
+      border-top: 5px solid var(--nsw-red);
+      background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                  url('https://images.unsplash.com/photo-1536099629323-44806c1ea264?fm=jpg&q=80&w=1200') center/cover no-repeat;
+      color: #fff;
+      text-align: center;
+      padding: 60px 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      min-height: 50vh;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0.2em 0;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0.5em 0 0;
+    }
+
+    /* Section styling */
+    section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    section h2 {
+      color: var(--nsw-blue);
+      font-size: 1.8em;
+      margin-top: 0;
+      margin-bottom: 0.5em;
+      border-bottom: 3px solid var(--nsw-red);
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    /* Intro section with flex layout */
+    .intro-content {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .intro-text {
+      flex: 1;
+      min-width: 280px;
+    }
+    .intro-text ul {
+      padding-left: 1.2em;
+    }
+    .intro-text ul li {
+      margin: 5px 0;
+    }
+    .intro-image {
+      flex: 1;
+      text-align: center;
+    }
+    .intro-image img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+
+    /* Downloads section */
+    .downloads {
+      background-color: #f7f7f7;
+      border: 1px solid #e0e0e0;
+    }
+    .downloads ul {
+      list-style: none;
+      padding: 0;
+    }
+    .downloads li {
+      margin: 10px 0;
+    }
+    .downloads a {
+      background: var(--nsw-blue);
+      color: #fff;
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 4px;
+      display: inline-block;
+    }
+    .downloads a:hover {
+      background: var(--nsw-red);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Transport for NSW Surveying Team</h1>
+    <p>Providing accurate surveying & spatial data for NSW transport infrastructure projects.</p>
+  </header>
+
+  <section class="intro">
+    <div class="intro-content">
+      <div class="intro-text">
+        <h2>About Us</h2>
+        <p>The Transport for NSW (TfNSW) Surveying Team plays a crucial role in planning and delivering the state’s transport infrastructure. Our surveyors provide accurate spatial data, mapping, and land surveying services to ensure that projects – from roads and bridges to rail lines – are designed and built with precision and efficiency.</p>
+        <p>Using state-of-the-art equipment and techniques, we support engineers and planners across New South Wales with reliable measurements and data. We are committed to safety, accuracy, and innovation in every project we undertake.</p>
+        <ul>
+          <li>Conducting land and engineering surveys for road, rail, and infrastructure projects.</li>
+          <li>Providing spatial data analysis, digital mapping, and geospatial insights for planning and design.</li>
+          <li>Ensuring construction aligns with design specifications through precise on-site measurements.</li>
+        </ul>
+      </div>
+      <div class="intro-image">
+        <img src="https://images.unsplash.com/photo-1628155453612-27686cb94a25?fm=jpg&q=80&w=800" alt="Surveyor using GNSS equipment in the field">
+      </div>
+    </div>
+  </section>
+
+  <section class="downloads">
+    <h2>Downloads</h2>
+    <ul>
+      <li><a href="#">Topographic Survey Example (ZIP, 1.2&nbsp;MB)</a></li>
+      <li><a href="#">Alignment Plan Data (ZIP, 0.8&nbsp;MB)</a></li>
+      <li><a href="#">Survey Guidelines (ZIP, 2.5&nbsp;MB)</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Transport for New South Wales</p>
+  </footer>
+
+</body>
+</html>
